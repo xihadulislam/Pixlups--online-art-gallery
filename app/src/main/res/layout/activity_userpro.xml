@@ -8,7 +8,7 @@
     android:orientation="vertical"
     tools:context=".UserproActivity">
 
-    <android.support.v4.widget.NestedScrollView
+    <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
@@ -82,7 +82,7 @@
                 android:layout_height="match_parent"
                 >
 
-                <android.support.v7.widget.RecyclerView
+                <androidx.recyclerview.widget.RecyclerView
                     android:layout_gravity="center"
                     android:id="@+id/myphotosId2"
                     android:nestedScrollingEnabled="false"
@@ -90,13 +90,13 @@
                     android:layout_height="wrap_content"
                     >
 
-                </android.support.v7.widget.RecyclerView>
+                </androidx.recyclerview.widget.RecyclerView>
             </LinearLayout>
 
 
         </LinearLayout>
 
-    </android.support.v4.widget.NestedScrollView>
+    </androidx.core.widget.NestedScrollView>
 
 
 
