@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/upload"
+    tools:context=".Upload">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+       <LinearLayout
+           android:layout_margin="15dp"
+           android:orientation="vertical"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_marginBottom="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/showphotoId"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/photoview2"
+            />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/takephotoId"
+                android:layout_marginRight="40dp"
+                android:layout_marginLeft="40dp"
+                android:background="@drawable/but_bg2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="choose photo"
+                />
+
+        </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+               <TextView
+                   android:textStyle="bold"
+                   android:textColor="#0e0e0e"
+                   android:layout_marginTop="10dp"
+                   android:layout_marginBottom="10dp"
+                   android:textSize="20sp"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="Caption"
+                   />
+
+           </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+               <EditText
+                   android:id="@+id/captionId"
+                   android:layout_marginLeft="20dp"
+                   android:layout_marginRight="20dp"
+                   android:background="@drawable/et_bg2"
+                   android:padding="15dp"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   />
+           </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+               <TextView
+                   android:textColor="#0e0e0e"
+                   android:textStyle="bold"
+                   android:layout_marginTop="10dp"
+                   android:textSize="20sp"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="Categories"
+                   />
+
+           </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+
+               <Spinner
+                   android:id="@+id/categoryspinerId"
+                   android:padding="20dp"
+                   android:layout_marginLeft="80dp"
+                   android:layout_marginRight="30dp"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:prompt="@string/Choose_a_category"
+                   >
+
+               </Spinner>
+
+           </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+
+               <TextView
+                   android:textColor="#0e0e0e"
+                   android:textStyle="bold"
+                   android:layout_marginTop="10dp"
+                   android:textSize="20sp"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="Set Price"
+                   />
+
+           </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+
+               <RadioGroup
+                   android:id="@+id/priceGroupId"
+                   android:gravity="center"
+                   android:padding="10dp"
+                   android:orientation="horizontal"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content">
+
+                   <RadioButton
+                       android:id="@+id/freeId"
+                       android:layout_marginRight="20dp"
+                       android:text="Free"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content" />
+                   <RadioButton
+                       android:id="@+id/premiumId"
+                       android:text="premium"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content" />
+               </RadioGroup>
+
+           </LinearLayout>
+
+
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+
+               >
+
+               <EditText
+                   android:hint="৳"
+                   android:background="@drawable/et_bg2"
+                   android:inputType="number"
+                   android:id="@+id/priceEdId"
+                   android:padding="10dp"
+                   android:layout_marginRight="30dp"
+                   android:layout_marginLeft="110dp"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   >
+
+               </EditText>
+
+           </LinearLayout>
+
+           <LinearLayout
+               android:layout_marginTop="20dp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+
+               <TextView
+                   android:textColor="#0e0e0e"
+                   android:textStyle="bold"
+                   android:textSize="20sp"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="Description"
+                   />
+           </LinearLayout>
+           <LinearLayout
+               android:layout_marginTop="10dp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+               <EditText
+                   android:id="@+id/descriptionId"
+                   android:background="@drawable/et_bg2"
+                   android:layout_marginRight="20dp"
+                   android:layout_marginLeft="20dp"
+                   android:layout_width="match_parent"
+                   android:layout_height="100dp"
+                   />
+
+           </LinearLayout>
+
+           <LinearLayout
+               android:layout_marginBottom="40dp"
+               android:layout_marginTop="20dp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+
+               <Button
+                   android:id="@+id/uploadbuttonId"
+                   android:layout_marginBottom="20dp"
+                   android:layout_marginRight="40dp"
+                   android:layout_marginLeft="40dp"
+                   android:background="@drawable/but_bg2"
+                   android:text="Upload"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content" />
+
+           </LinearLayout>
+
+       </LinearLayout>
+    </ScrollView>
+</FrameLayout>

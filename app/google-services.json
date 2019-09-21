@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "369334462454",
+    "firebase_url": "https://pixlups-6e58d.firebaseio.com",
+    "project_id": "pixlups-6e58d",
+    "storage_bucket": "pixlups-6e58d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:369334462454:android:0468956db99a54ae",
+        "android_client_info": {
+          "package_name": "com.example.xihad.pixlups"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "369334462454-ikakof7slieffpn01n67ubil3lfnad63.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.xihad.pixlups",
+            "certificate_hash": "9f265ce9410a5e01ab280fd9357217426f108364"
+          }
+        },
+        {
+          "client_id": "369334462454-4gc5ebh2q6cskmgi95n8n1ud7dbkpons.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCM0vlcb10cCU_glYokWBVRkQ4nZOaJu9U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "369334462454-4gc5ebh2q6cskmgi95n8n1ud7dbkpons.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

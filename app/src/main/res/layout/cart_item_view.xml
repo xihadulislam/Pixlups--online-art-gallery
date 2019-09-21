@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="175dp"
+    android:layout_height="300dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#fff"
+    app:cardCornerRadius="4dp"
+    app:cardElevation="3dp"
+    app:contentPadding="5dp"
+    app:cardUseCompatPadding="true"
+    >
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:src="@drawable/loading"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:id="@+id/cartitemphotoId"
+            android:layout_width="match_parent"
+            android:layout_height="180dp" />
+
+        <RelativeLayout
+            android:layout_marginTop="6dp"
+            android:gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:paddingTop="2dp"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:id="@+id/cartnameitemId"
+                android:text="name"
+                android:layout_width="80dp"
+                android:layout_height="22dp" />
+
+            <TextView
+                android:gravity="center"
+                android:id="@+id/cartitempriceId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_toEndOf="@+id/itemnameId"
+                android:layout_toRightOf="@+id/itemnameId"
+                android:background="#FF5722"
+                android:text="22223"
+                android:textColor="#fff"
+                android:padding="2dp"
+                android:textStyle="bold"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_marginTop="6dp"
+            android:gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/stat"
+                android:paddingTop="2dp"
+                android:textStyle="bold"
+                android:text="Status :"
+                android:layout_width="wrap_content"
+                android:layout_height="22dp" />
+
+            <TextView
+                android:id="@+id/statusId"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/stat"
+                android:text="pending.."
+                android:textColor="#FFC107"
+                android:padding="2dp"
+                android:textStyle="bold"
+                />
+
+        </RelativeLayout>
+
+
+        <Button
+            android:id="@+id/cartitembutId"
+            android:textColor="#fff"
+            android:background="#E20B0B"
+            android:layout_marginTop="9dp"
+            android:text="Download"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>
+
+
+
+
+
+

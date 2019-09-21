@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">Pixlups</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main">Pixlups</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="upload">Upload</string>
+    <string name="account">Account</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login_now">Login Now</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="signup_now">Signup Now</string>
+
+
+    <string name="Choose_a_Price">Choose a Price</string>
+    <string name="Choose_a_category">Choose a category</string>
+
+
+    <string-array name="category_Name">
+        <item>ART photography</item>
+        <item>Wildlife</item>
+        <item>Landscape</item>
+        <item>Mobile photography</item>
+        <item>Macro</item>
+        <item>Wedding</item>
+        <item>Street photography</item>
+        <item>Children photos</item>
+        <item>Portrait</item>
+        <item>Black and white</item>
+        <item>Fashion and glamour</item>
+        <item>Others</item>
+
+    </string-array>
+
+
+    <string-array name="category">
+        <item>All</item>
+        <item>ART photography</item>
+        <item>Wildlife</item>
+        <item>Landscape</item>
+        <item>Mobile photography</item>
+        <item>Macro</item>
+        <item>Wedding</item>
+        <item>Street photography</item>
+        <item>Children photos</item>
+        <item>Portrait</item>
+        <item>Black and white</item>
+        <item>Fashion and glamour</item>
+        <item>Others</item>
+
+    </string-array>
+
+
+    <string-array name="order">
+        <item>All</item>
+        <item>Most popular</item>
+        <item>Last upload</item>
+        <item>Free</item>
+
+    </string-array>
+
+
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_client_main">ClientMainActivity</string>
+
+    <string name="payment_text">Go to your mobile\nDial *247#\nSelect Payment\nEnter 01742242243\nEnter Amount\nEnter Order Id as reference\nEnter counter 1\nEnter pin\nYou will get your Trx Id</string>
+    <string name="we_will_mail_you_a_link_after_when_you_provide_email_and_click_send_button_then_please_click_on_that_link_to_reset_your_password">We will mail you a link after when you provide email and click Send button.Then please click on that link to reset your password.</string>
+
+
+</resources>

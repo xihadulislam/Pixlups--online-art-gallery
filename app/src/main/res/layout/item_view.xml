@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="150dp"
+    android:layout_height="225dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#fff"
+    app:cardCornerRadius="4dp"
+    app:cardElevation="3dp"
+    app:contentPadding="5dp"
+    app:cardUseCompatPadding="true"
+
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:src="@drawable/loading"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:id="@+id/itemimgId"
+            android:layout_width="match_parent"
+            android:layout_height="175dp" />
+
+        <RelativeLayout
+            android:layout_marginTop="4dp"
+            android:gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:paddingTop="2dp"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:id="@+id/itemnameId"
+                android:text="name"
+                android:layout_width="80dp"
+                android:layout_height="22dp" />
+
+            <TextView
+                android:gravity="center"
+                android:id="@+id/itempriceId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#32dc35"
+                android:text="223"
+                android:padding="2dp"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:layout_toLeftOf="@+id/tagID"
+                />
+            <TextView
+                android:padding="2dp"
+                android:id="@+id/tagID"
+                android:layout_alignParentRight="true"
+                android:background="#32dc35"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:text="৳"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
