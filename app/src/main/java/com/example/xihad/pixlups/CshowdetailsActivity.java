@@ -334,8 +334,8 @@ public class CshowdetailsActivity extends AppCompatActivity {
                     snackbar.setActionTextColor(Color.GREEN);
 
                     View sbView = snackbar.getView();
-                    TextView textView = (TextView) sbView.findViewById(android.support.design.R.id.snackbar_text);
-                    textView.setTextColor(Color.YELLOW);
+                  //  TextView textView = (TextView) sbView.findViewById(android.support.design.R.id.snackbar_text);
+                 //   textView.setTextColor(Color.YELLOW);
                     snackbar.show();
 
                 }
@@ -358,8 +358,8 @@ public class CshowdetailsActivity extends AppCompatActivity {
                             });
                     snackbar.setActionTextColor(Color.GREEN);
                     View sbView = snackbar.getView();
-                    TextView textView = (TextView) sbView.findViewById(android.support.design.R.id.snackbar_text);
-                    textView.setTextColor(Color.YELLOW);
+                 //   TextView textView = (TextView) sbView.findViewById(android.support.design.R.id.snackbar_text);
+                 //   textView.setTextColor(Color.YELLOW);
                     snackbar.show();
 
 

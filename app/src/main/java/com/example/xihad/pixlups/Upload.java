@@ -73,6 +73,8 @@ public class Upload extends Fragment {
     public   String prytt = "";
 
 
+
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -256,10 +258,10 @@ public class Upload extends Fragment {
         MimeTypeMap mime = MimeTypeMap.getSingleton();
         return mime.getExtensionFromMimeType(resolver.getType(uri));
     }
-    
+
+
 
     private void photoupload() {
-
         if (muri != null) {
             progressDialog.setMessage("Please Wait...!");
             progressDialog.show();
